@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Kullanıcı Adı"
         android:textSize="24sp"
-        android:textColor="#009688"
+        android:textColor="#2CD110"
         android:layout_margin="4dp"
         android:id="@+id/recycler_row_kullanici_adi">
 
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="Yorum"
         android:textSize="18sp"
-        android:textColor="#E91E63"
+        android:textColor="#6CA926"
         android:layout_margin="4dp"
         android:id="@+id/recycler_row_yorum">
 

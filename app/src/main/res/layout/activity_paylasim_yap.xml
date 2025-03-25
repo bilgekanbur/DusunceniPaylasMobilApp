@@ -9,16 +9,14 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="326dp"
-        android:layout_height="0dp"
+        android:layout_width="327dp"
+        android:layout_height="76dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="46dp"
-        android:layout_marginBottom="365dp"
         android:ems="10"
         android:hint="Düşüncenizi Yazınız"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/gorsel_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
