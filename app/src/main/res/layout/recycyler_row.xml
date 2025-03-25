@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı"
+        android:textSize="24sp"
+        android:textColor="#009688"
+        android:layout_margin="4dp"
+        android:id="@+id/recycler_row_kullanici_adi">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yorum"
+        android:textSize="18sp"
+        android:textColor="#E91E63"
+        android:layout_margin="4dp"
+        android:id="@+id/recycler_row_yorum">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone">
+
+    </ImageView>
+
+</LinearLayout>
